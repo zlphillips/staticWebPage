@@ -12,6 +12,22 @@ body {
 .introSection {
     z-index: 1;
 }
+h1{
+    font-size: 62px;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size: 52px;
+}
+h4{
+    font-size: 28px;
+    font-weight: normal;
+}
+button:hover{
+    opacity: 1;
+}
 #netflixLogo{
     color: #e50914;
     font-size: 40px;
@@ -41,7 +57,7 @@ body {
     font-size: 31px;
     position: absolute;
     z-index: 1;
-    top: 200px;
+    top: 205px;
     left: 445px;
 }
 .intro2 {
@@ -49,10 +65,9 @@ body {
     font-size: 20px;
     position: absolute;
     z-index: 1;
-    top: 380px;
-    left: 580px;
+    top: 368px;
+    left: 553px;
 }
-
 .tryFreeButton {
     font-style: white;
     text-align: center;
@@ -61,11 +76,12 @@ body {
     position: absolute;
     z-index: 1;
     top: 470px;
-    left: 330px;
+    left: 335px;
     border-left: 0px;
     padding-left: 0%;
     margin-left: 0%;
-  }
+    transition-duration: .4s;
+}
   #tryFreeButton {
       font-family: Arial, Helvetica, sans-serif;
       font-size: 28px;
@@ -76,7 +92,7 @@ body {
       border-width: 0px;
       border-left: 0px;
       height: 69px;
-      width: 816px;
+      width: 810px;
       padding-left: 0%;
       padding-top: 0%;
       margin-left: 0;
@@ -84,16 +100,15 @@ body {
       margin-bottom: 0;
       padding-bottom: 0%;
   }
-
 .readyToWatch {
+    font-size: 18px;
     text-align: center;
     position: absolute;
     font-size: 20px;
     z-index: 1;
-    top: 535px;
-    left: 480px;
+    top: 530px;
+    left: 466px;
 }
-
 .streamingDevices{
     z-index: 1;
     background-color: #000000;
@@ -102,16 +117,96 @@ body {
     position: absolute;
     top: 700px;
     width: 1518px;
-    height: 450px;
+    height: 465px;
     padding: 0;   
+}
+#streamingDevicesText{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    padding: 0;
+    margin: 0;
 }
 #tvimg{
     height: 175px;
     width: 175px;
     position: absolute;
-    left: 700px;
-    top: 0px;
+    left: 825px;
+    top: 27px;
     border: 0;
     padding: 0;
     margin: 0;
+}
+#scrollingMenu{
+    z-index:3;
+    position: absolute;
+    left: 891px;
+    top: 107px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#remote{
+    z-index: 4;
+    position: absolute;
+    left: 1210px;
+    top: 243px;
+    border-radius: 8px 8px 8px 8px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.downloads{
+    z-index: 1;
+    background-color: #000000;
+    border-bottom: solid 8px #333333;
+    position: absolute;
+    top: 1181px;
+    width: 1518px;
+    height: 450px;
+    padding: 0;   
+}
+#downloadsText{
+    z-index: 2;
+    position: absolute;
+    top: 70px;
+    left: 780px;
+}
+#strangerThingsPhone{
+    z-index: 2;
+    position: absolute;
+    top: 17px;
+    left: 133px;
+}
+#cellPhoneCover{
+    z-index: 3;
+    height: 101px;
+    width: 326px;
+    background-color: #000000;
+    border: solid 2px #333333;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 266px;
+    left: 221px;
+}
+#downloadIcon{
+    position: absolute;
+    left: 260px;
+    top: 20px;
+}
+#strangerThingsCover{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#stText{
+    position: absolute;
+    left: 90px;
+    top: 32px;
+}
+#dlText{
+    color: #243afc;
+    position: absolute;
+    left: 90px;
+    top: 52px;
 }
